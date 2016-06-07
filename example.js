@@ -1,7 +1,7 @@
 'use strict';
 const Oscar = require('./oscar');
 
-var scientist = new Oscar();
+var scientist = new Oscar(process.env.OSCAR_KEY);
 
 var experiment = {name: 'Test', parameters: {x: {min: -10, max: 10}}};
 var max = 10;

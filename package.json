@@ -1,0 +1,22 @@
+{
+  "name": "oscar-node",
+  "version": "1.0.0",
+  "description": "Oscar's nodejs client",
+  "main": "oscar.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/calldesk/Oscar-Node.git"
+  },
+  "author": "Vincent Gire",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/calldesk/Oscar-Node/issues"
+  },
+  "homepage": "https://github.com/calldesk/Oscar-Node#readme",
+  "dependencies": {
+    "request": "^2.72.0"
+  }
+}
